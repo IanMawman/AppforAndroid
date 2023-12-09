@@ -1,0 +1,19 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div class="title">
+    <h1>Julia's app - 1'st eddition</h1>
+</div>
+<div id='heart' class='button' onclick="playAudio()"></div>
+<audio id="myAudio" src="audio.mp3"></audio>
+
+<script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
